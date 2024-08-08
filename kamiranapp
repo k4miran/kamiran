@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kelimeler</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f0f0f0;
+        }
+        .container {
+            margin: 20px auto;
+            padding: 10px;
+            width: 300px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .words-box {
+            width: 150px;
+            height: 200px;
+            margin: 0 auto;
+            background-color: #d3bda2;
+            border: 2px solid white;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+            padding: 10px;
+            overflow: hidden;
+        }
+        .words-box p {
+            color: black;
+            font-weight: bold;
+            margin: 0;
+            padding: 5px 0;
+            text-align: left;
+        }
+        .button {
+            margin: 20px;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .support {
+            margin-top: 20px;
+        }
+        .support a {
+            color: #007bff;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Ferbuna Türki 🇹🇷</h1>
+        <p>ڤێرببە زمانێ توركي تلاخو ل 5 kelime دە بو هەر جارەكێ دێ 5 كەلِما وەلگري</p>
+        <button class="button">5 Kalima</button>
+        <div class="words-box">
+            <p>1 ve kelime</p>
+            <p>2 ve kelime</p>
+            <p>3 ve kelime</p>
+        </div>
+        <div class="support">
+            <p>Support:</p>
+            <a href="https://t.me/k4miran_sndi">Benim Telegram Linkim</a>
+        </div>
+    </div>
+</body>
+</html>
